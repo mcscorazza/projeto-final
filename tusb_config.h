@@ -1,0 +1,18 @@
+#ifndef _TUSB_CONFIG_H_
+#define _TUSB_CONFIG_H_
+
+#define CFG_TUSB_RHPORT0_MODE OPT_MODE_DEVICE
+
+#ifndef CFG_TUSB_OS
+#define CFG_TUSB_OS OPT_OS_PICO
+#endif
+
+#ifndef CFG_TUD_ENDPOINT0_SIZE
+#define CFG_TUD_ENDPOINT0_SIZE 64
+#endif
+
+#define CFG_TUD_HID 1
+
+#define CFG_TUD_HID_BUFSIZE 32
+
+#endif 
