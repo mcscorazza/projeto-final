@@ -25,5 +25,5 @@ enum {
             HID_LOGICAL_MAX(0x7f),                              \
             HID_REPORT_COUNT(2),                                \
             HID_REPORT_SIZE(8),                                 \
-            HID_INPUT(HID_DATA | HID_VARIABLE | HID_ABSOLUTE)   \
+            HID_INPUT(HID_DATA | HID_VARIABLE | HID_ABSOLUTE),  \
         HID_COLLECTION_END
